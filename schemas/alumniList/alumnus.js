@@ -4,12 +4,17 @@ export default {
   title: 'Alumnus List',
   fields: [
     {
-      name: 'alumnusID',
+      name: 'studentID',
       type: 'string',
-      title: 'Alumnus Card Identifier Number',
-      description:
-        'This is the unique identifier from the alumnus card. It is found on the front of the card.',
+      title: 'Student ID',
     },
+    // {
+    //   name: 'alumnusID',
+    //   type: 'string',
+    //   title: 'Alumnus Card Identifier Number',
+    //   description:
+    //     'This is the unique identifier from the alumnus card. It is found on the front of the card.',
+    // },
     {
       name: 'givenName',
       type: 'string',
@@ -104,7 +109,7 @@ export default {
   ],
   preview: {
     select: {
-      title: 'alumnusID',
+      title: 'studentID',
       surname: `surname`,
       givenName: `givenName`,
       middleName: `middleName`,
